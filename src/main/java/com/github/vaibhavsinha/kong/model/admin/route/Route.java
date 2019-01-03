@@ -10,7 +10,7 @@ import lombok.Data;
  * @create: 2019-01-03 17:35
  **/
 @Data
-public class route {
+public class Route {
 
     private String id;
     private Long created_at;
