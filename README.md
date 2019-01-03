@@ -67,3 +67,5 @@ To do the OAuth2 Process (Authorization Code)
     //See: RetrofitOAuth2ProcessServiceTest.java
     kongClient.getOAuth2ProcessService().authorize(API_URI, authorizationRequest);
     kongClient.getOAuth2ProcessService().grantToken(API_URI, grantTokenRequest)
+
+To do add service and route
