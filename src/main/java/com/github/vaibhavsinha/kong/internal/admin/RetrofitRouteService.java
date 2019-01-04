@@ -1,10 +1,9 @@
-package com.github.vaibhavsinha.kong.api.admin;
+package com.github.vaibhavsinha.kong.internal.admin;
 
 import com.github.vaibhavsinha.kong.model.admin.route.Route;
 import com.github.vaibhavsinha.kong.model.admin.route.RouteList;
 
-public interface RouteService {
-
+public interface RetrofitRouteService {
     Route createRoute(Route request);
 
     Route getRoute(String  nameOrId);

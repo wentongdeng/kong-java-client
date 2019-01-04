@@ -13,6 +13,7 @@ import java.util.List;
  **/
 @Data
 public class RouteList extends AbstractEntityList {
+    Long total;
     String next;
     List<Route> data;
 }

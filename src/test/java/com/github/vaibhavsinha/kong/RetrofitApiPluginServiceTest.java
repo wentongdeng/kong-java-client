@@ -42,7 +42,7 @@ public class RetrofitApiPluginServiceTest extends BaseTest {
         OAUTH2_CONFIG.setEnablePasswordGrant(true);
         OAUTH2_CONFIG.setEnableClientCredentials(true);
         OAUTH2_CONFIG.setTokenExpiration(7200);
-        request.setConfig(OAUTH2_CONFIG);
+        request. setConfig(OAUTH2_CONFIG);
 
         Plugin response = kongClient.getApiPluginService().addPluginForApi(API_NAME, request);
         printJson(response);
